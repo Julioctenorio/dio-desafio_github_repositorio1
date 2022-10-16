@@ -1,3 +1,21 @@
 Link para download do Git: https://git.scm.com/downloads
 
 O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+O Git é um sistema de controle de versão open-source, ou seja, gratuito.
+Ele é utilizado para a criação de um histórico de alterações em código-fonte de projetos de desenvolvimento de software
+
+O Github é um repositório remoto, criado como um serviço online de hospedagem de repositórios do Git.
+
+
+Aqui vou dizer como fiz para colocar este arquivo no meu GitHub:
+
+1 - Criei umm repositório no GitHub, lembrando de colocar uma descrição. (Add a readme file) é muito importante para o explicar o projeto. 
+2 - Criei também um arquivo (markdown, arquivo como um txt e que aparenta um pouco com o html)
+3 - Clonei o arquivo (em code>clone)
+4 - No GitBash = "git clone + (o link que clonei do GitHub)"
+5 - git status (identificará novos arquivos/pastas para add ao git)
+6 - (git add .) ou (git add -a) para adicionar todos os arquivos - (lembrar de dar outro git status para verificar se foram todos adicionados)
+7 - Para adicionar ao github parte 1 = git commit -m "" (comentario do commit do arquivo adicionado é importante para saber o que foi feito
+8 - Parte 2 = git push origin main - após isso poderá ver o arquivo/pasta no perfil do github
+
