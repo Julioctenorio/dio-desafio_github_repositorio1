@@ -56,11 +56,7 @@ Registra alterações no repositório git salvando uma mensagem de log junto com
 //git commit -m "fix.Corrigindo bug página home"
 //git commit -a     --Faz o commit mas sem mensagem--
 
-9. git push
-Envia o conteúdo do seu repositório local para o repositório remoto adicionado como github.
-//git push -u origin main
-
-10. git checkout [branch]
+9. git checkout [branch]
 Passa de uma branch para outra 
 //git checkout pagamentos
 //git checkout -b homepage
