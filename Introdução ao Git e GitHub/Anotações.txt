@@ -19,3 +19,48 @@ Aqui vou dizer como fiz para colocar este arquivo no meu GitHub:
 7 - Para adicionar ao github parte 1 = git commit -m "" (comentario do commit do arquivo adicionado é importante para saber o que foi feito
 8 - Parte 2 = git push origin main - após isso poderá ver o arquivo/pasta no perfil do github
 
+Vamos la:
+
+1. git config
+Define o nome de usuário e o endereço de e-mail para commits.
+//git config --global user.nome "JulioCesar"
+//git config --global user.email "julio@cesar.com"
+
+2. git init 
+Inicializaum repertório
+//git init 
+
+3. git clone 
+Clona um repertório do servidor como github, gitlab
+//git clone https://github.com/julioctenorio/NLW
+
+4. git status
+Verifica o status da árvore de trabalho 
+//git status
+
+5. git pull
+Busca sincronizar conteúdo do repertório remoto ao seu repositório local.
+//git pull
+
+6. git add 
+Coloca os arquivos não preparados, monitorados na área de preparação "starting area".
+//git add index.html    --Adiciona apenas o arquivo passado como index.html--
+//git add .             --Adiciona todos os arquivos que estão como Unstage--
+
+7. git push
+Envia o conteúdo do seu repositório local para o repositório remoto adicionado remoto adicionado como github.
+//git push -u origin main
+
+8. git commit 
+Registra alterações no repositório git salvando uma mensagem de log junto com um ID do commit.
+//git commit -m "fix.Corrigindo bug página home"
+//git commit -a     --Faz o commit mas sem mensagem--
+
+9. git push
+Envia o conteúdo do seu repositório local para o repositório remoto adicionado como github.
+//git push -u origin main
+
+10. git checkout [branch]
+Passa de uma branch para outra 
+//git checkout pagamentos
+//git checkout -b homepage
